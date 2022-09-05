@@ -1,0 +1,21 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+.conteiner{
+    width: 400 px;
+    margin: 0 auto;
+}
+header {
+    padding: 3rem;
+    background-color: #a9adae;
+    position: sticky;
+}
+
+body {
+    margin:0;
+    background-color: #001e36;
+}
+article {
+    background-color: #97d544;
+    margin: 0;
+}
