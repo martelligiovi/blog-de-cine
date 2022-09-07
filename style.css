@@ -1,21 +1,40 @@
 html {
     font-family: 'Montserrat', sans-serif;
 }
-.conteiner{
-    width: 400 px;
-    margin: 0 auto;
-}
-header {
-    padding: 3rem;
-    background-color: #a9adae;
-    position: sticky;
-}
 
+
+header {
+    padding: 2rem;
+    background-color: #97d544;
+    position: sticky;
+    top: 0;
+    border: 2px #001e36;
+}
+header section {
+    float: right ;
+}
 body {
     margin:0;
     background-color: #001e36;
 }
-article {
-    background-color: #97d544;
-    margin: 0;
+.conteiner{
+    width: 410px;
+    margin: 0 auto;
 }
+section article {
+    transition: box-shadow 0.2s ease;
+    background-color: #97d544;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    
+}
+section article:hover{
+    box-shadow: -0.0rem 0.0rem 0.7rem #a9adae;
+}
+footer{
+    background-color: #97d544;
+    padding: 1rem;
+}
+
