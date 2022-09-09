@@ -4,14 +4,20 @@ html {
 
 
 header {
-    padding: 2rem;
+    
+    padding: 1rem;
     background-color: #97d544;
     position: sticky;
     top: 0;
-    border: 2px #001e36;
+    border: 20px #001e37;
 }
-header section {
-    float: right ;
+header h1{
+    padding: 1px;
+    margin-left: 1rem;
+
+}
+header section{
+    s
 }
 body {
     margin:0;
